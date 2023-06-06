@@ -1,0 +1,23 @@
+{
+  "name": "03-api-solid-nodejs",
+  "version": "1.0.0",
+  "description": "## **API desenvolvida durante as aulas do módulo 03 da trilha de Node.js | Ignite - Rocketseat**",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0"
+  }
+}
